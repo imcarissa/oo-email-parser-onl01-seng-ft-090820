@@ -12,7 +12,7 @@ attr_accessor :email
   end
 
   def parse
-    @parse.split().uniq
+    @email.split().uniq
   end
 
 end
